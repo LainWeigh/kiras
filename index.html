@@ -74,13 +74,13 @@
           <div class="is-size-4 publication-authors">
             <span class="author-block">
               <a>Xiaoyi Wei<sup>1</sup></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-              <a>Peng Zhai<sup>†,1</sup></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+              <a>Peng Zhai<sup>*,1</sup></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
               <a>Jiaxin Tu<sup>1</sup></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
               <a>Yueqi Zhang<sup>1</sup></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
               <a>Yuqi Li<sup>1</sup></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
               <a>Zonghao Zhang<sup>1</sup></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
               <a>Hu Zhou<sup>2</sup></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-              <a>Lihua Zhang<sup>†,1</sup></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+              <a>Lihua Zhang<sup>*,1</sup></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
               <br><br>
               <center>
                 <div class="image-row">
@@ -413,6 +413,74 @@
   </div>
 </section>
 
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-full-width has-text-centered">
+        <h2 class="title is-2" style="padding-bottom: 10px;">Previous Work: PASIST</h2>
+        <h2 class="title is-3" style="margin-bottom: 10px;">
+          Continuous Control of Diverse Skills in Quadruped Robots Without Complete Expert Datasets
+        </h2>
+        <div class="is-size-4 publication-authors" style="margin-bottom: 6px;">
+          <span class="author-block">
+            <a href="">Jiaxin Tu<sup>†</sup></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="">Xiaoyi Wei<sup>†</sup></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="">Yueqi Zhang</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="">Taixian Hou</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="">Xiaofei Gao</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="">Zhiyan Dong</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="">Peng Zhai<sup>∗</sup></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="">Lihua Zhang<sup>∗</sup></a>
+          </span>
+        </div>
+        <div class="is-size-4" style="margin-bottom: 16px;">
+          2025 IEEE International Conference on Robotics and Automation (ICRA)
+        </div>
+
+        <div class="publication-links" style="margin-bottom: 16px;">
+          <span class="link-block">
+            <a href="https://arxiv.org/abs/2503.03476"
+               class="external-link button is-normal is-rounded is-dark">
+              <span class="icon">
+                <i class="ai ai-arxiv"></i>
+              </span>
+              <span>arXiv</span>
+            </a>
+          </span>
+          <span class="link-block">
+            <a href="https://www.bilibili.com/video/BV1EhAaeXESt/?buvid=YD484BD6C6CFBFE84F518C9618836A828674&is_story_h5=false&mid=VQ%2FX7MFL7viwJsp95xKJoQ%3D%3D&plat_id=240&share_from=ugc&share_medium=iphone&share_plat=ios&share_source=WEIXIN&share_tag=s_i&timestamp=1773222283&unique_k=oYBmS9D&up_id=474432278&vd_source=337fac9a08482168636787688ae772e4"
+               class="external-link button is-normal is-rounded is-dark" target="_blank">
+              <span class="icon">
+                <i class="fab fa-bilibili"></i>
+              </span>
+              <span>Bilibili</span>
+            </a>
+          </span>
+        </div>
+
+        <div class="content" style="max-width: 900px; margin: 0 auto 16px auto;">
+          <p>This paper applies Generative Adversarial Self-Imitation Learning (GASIL) to quadruped robot skill learning for the first time, and designs a new metric by integrating task rewards with Dynamic Time Warping (DTW) values to realize autonomous selection and extraction of high-quality trajectories without complete expert datasets. It serves as the theoretical foundation of KiRAS.</p>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <video muted loop playsinline controls src="./resources/pasist/biped.mp4" width="100%"
+                   style="border-radius:10px; "></video>
+          </div>
+          <div class="col">
+            <video muted loop playsinline controls src="./resources/pasist/high.mp4" width="100%"
+                   style="border-radius:10px; "></video>
+          </div>
+          <div class="col">
+            <video muted loop playsinline controls src="./resources/pasist/low.mp4" width="100%"
+                   style="border-radius:10px; "></video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- <section class="section">
   <div class="container">
     <div class="columns is-centered">
@@ -662,6 +730,15 @@
   <div class="container content">
     <h2 class="titile">BibTeX</h2>
     <pre><code>
+      @inproceedings{tu2025continuous,
+        title={Continuous Control of Diverse Skills in Quadruped Robots Without Complete Expert Datasets},
+        author={Tu, Jiaxin and Wei, Xiaoyi and Zhang, Yueqi and Hou, Taixian and Gao, Xiaofei and Dong, Zhiyan and Zhai, Peng and Zhang, Lihua},
+        booktitle={2025 IEEE International Conference on Robotics and Automation (ICRA)},
+        pages={11191--11197},
+        year={2025},
+        organization={IEEE}
+      }
+
       @ARTICLE{11155164,
         author={Zhang, Yueqi and Qian, Quancheng and Hou, Taixian and Zhai, Peng and Wei, Xiaoyi and Hu, Kangmai and Yi, Jiafu and Zhang, Lihua},
         journal={IEEE Robotics and Automation Letters}, 
